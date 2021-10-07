@@ -1,5 +1,6 @@
 # irrigation_system
-TUM Plant a Seed - irrigation system 
+TUM Plant a Seed - irrigation system
+
 Our project aims to make an automated watering system for the garden beds on the main campus of the TUM.
 We use a Raspberry pi to send commands to an arduino MKR1010. The microcontroller then makes measurements for temperature, humidity and soil moisture in the garden bed where it is placed. The data is send back to the RPi as a struct and used to make decisions on whether the irrigation should be activated for that bed and for how long.
 
